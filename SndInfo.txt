@@ -1,0 +1,7 @@
+mp40/Shoot				"sounds/GMP40.ogg"
+mp40/cock				"sounds/MP402.ogg"
+mp40/uncock				"sounds/MP401.ogg"
+mp40/Hit				"sounds/Mp40Hit.ogg"
+$volume mp40/shoot 0.8
+$volume mp40/cock 0.8
+$volume mp40/uncock 0.8

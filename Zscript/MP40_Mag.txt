@@ -1,0 +1,46 @@
+class HDMP40Mag:HDMagAmmo{
+	default{
+		//$Category "Ammo/Hideous Destructor/"
+		//$Title "PPSh-41 Box Magazine"
+		//$Sprite "PSDMA0"
+        scale 0.30;
+
+		hdmagammo.maxperunit 32;
+		hdmagammo.roundtype "HDPistolAmmo";
+		hdmagammo.roundbulk ENC_9_LOADED;
+		hdmagammo.magbulk ENC_MP40_BOX_EMPTY;
+		tag "MP40 Magazine";
+		inventory.pickupmessage "Picked up a MP40 magazine.";
+		hdpickup.refid "MPM";
+	}
+	
+	override string,string,name,double getmagsprite(int thismagamt)
+	{
+		string magsprite;
+		if(thismagamt>0)
+			magsprite = "MP4MA0";
+		else
+			magsprite = "MP4MC0";
+		return magsprite,"PBRSA0","HDPistolAmmo",1;
+	}
+	override void GetItemsThatUseThis(){
+		itemsthatusethis.push("HDMP40");
+	}
+	
+	states{
+	spawn:
+		MP4M A -1;
+		stop;
+	spawnempty:
+		MP4M D -1;
+		stop;
+	}
+}
+
+class HDMP40EmptyMag:IdleDummy{
+	override void postbeginplay(){
+		super.postbeginplay();
+		HDMagAmmo.SpawnMag(self,"HDMP40Mag",0);
+		destroy();
+	}
+}
