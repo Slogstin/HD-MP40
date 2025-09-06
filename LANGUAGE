@@ -15,3 +15,10 @@ MERCH_TAG_MP40 = "Maschienenpistole 40";
 MERCH_TAG_MP40MAG = "MP40 Magazine";
 
 // Weapon
+MP40_PICKUP = "You got the MP40. Keep moving like lightning!";
+OB_MP40 = "%o got Blitzkrieg'd.";
+TAG_MP40 = "Maschienenpistole 40";
+MP40_HELPTEXT_1 = "  Rack bolt\n";
+MP40_HELPTEXT_2 = "  Reload\n";
+TAG_MP40MAG = "MP40 Magazine";
+PICKUP_MP40MAG = "Picked up a MP40 magazine.";

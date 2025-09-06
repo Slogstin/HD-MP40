@@ -1,4 +1,5 @@
 const ENC_MP40_BOX_EMPTY = 9;
+const HDLD_MP40 = "mp4";
 
 //const ENC_MP40_BOX_LOADED = ENC_TOMMY_BOX_EMPTY*0.7;
 
@@ -25,10 +26,10 @@ class HDMP40 :HDHandgun{
 		weapon.bobrangey 0.35;
 		weapon.bobspeed 1.8;
 		weapon.bobstyle "normal";
-		inventory.pickupmessage "You got the MP40. Keep moving like lightning!";
-		obituary "%o got Blitzkrieg'd.";
-		tag "Maschienenpistole 40";
-		hdweapon.refid "MP4";
+		inventory.pickupmessage "$MP40_PICKUP";
+		obituary "$OB_MP40";
+		tag "$TAG_MP40";
+		hdweapon.refid HDLD_MP40;
 		hdweapon.barrelsize 25,0.3,0.4;
 		inventory.icon "MP4PB0";
 	}
@@ -138,11 +139,11 @@ class HDMP40 :HDHandgun{
 	
 	override string gethelptext(){
 		return
-		WEPHELP_FIRESHOOT
-		..WEPHELP_ALTFIRE.."  Rack bolt\n"
-		..WEPHELP_RELOAD.."  Reload\n"
-		..WEPHELP_MAGMANAGER
-		..WEPHELP_UNLOADUNLOAD
+		LWPHELP_FIRESHOOT
+		..LWPHELP_ALTFIRE..Stringtable.Localize("$MP40_HELPTEXT_1")
+		..LWPHELP_RELOAD..Stringtable.Localize("$MP40_HELPTEXT_2")
+		..LWPHELP_MAGMANAGER
+		..LWPHELP_UNLOADUNLOAD
 		;
 	}
 	
