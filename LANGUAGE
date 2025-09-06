@@ -1,0 +1,24 @@
+[enu default]
+
+// Main Menu
+MP40_MENU = "\c[Orange]Ⓒ\c- MP40";
+MENU_MAGSPAWNRATE = "Magazine Spawn Rate: ";
+MENU_WEPSPAWNRATE = "Weapon Spawn Rate: ";
+MENU_MERCHPRICEWEP = "Merchant Weapon Price: ";
+MENU_MERCHPRICEMAG = "Merchant Magazine Price: ";
+MENU_MERCHENABLED = "Merchant Sold: ";
+MENU_PERSISTENCY = "Persistent Spawns: ";
+
+// Merchant
+MERCH_CAT_SLOGSTIN = "Virid Inc.";
+MERCH_TAG_MP40 = "Maschienenpistole 40";
+MERCH_TAG_MP40MAG = "MP40 Magazine";
+
+// Weapon
+MP40_PICKUP = "You got the MP40. Keep moving like lightning!";
+OB_MP40 = "%o got Blitzkrieg'd.";
+TAG_MP40 = "Maschienenpistole 40";
+MP40_HELPTEXT_1 = "  Rack bolt\n";
+MP40_HELPTEXT_2 = "  Reload\n";
+TAG_MP40MAG = "MP40 Magazine";
+PICKUP_MP40MAG = "Picked up a MP40 magazine.";

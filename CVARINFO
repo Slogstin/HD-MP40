@@ -1,0 +1,13 @@
+// Spawning
+server float mp40_clipmag_spawn_weight = 2;
+server float mp40_clipbox_spawn_weight = 1.95;
+server bool mp40_persistency = true;
+
+server bool mp40_allowBackpacks = true;
+server bool mp40mag_allowBackpacks = true;
+
+// Merchant
+server bool hdm_enable_mp40 = true;
+
+server int hdm_mp40_price = 225;
+server int hdm_mp40mag_price = 17;

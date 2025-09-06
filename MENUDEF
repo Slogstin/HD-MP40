@@ -1,0 +1,24 @@
+AddOptionMenu "OptionsMenu" {
+    Submenu "$MP40_MENU", "MP40Menu"
+}
+
+AddOptionMenu "HDAddonMenu" {
+    Submenu "$MP40_MENU", "MP40Menu"
+}
+
+OptionMenu "MP40Menu"
+{
+    Title "$MP40_MENU"
+    
+    StaticText ""
+    StaticText "$MERCH_TAG_MP40"
+    Slider "$MENU_WEPSPAWNRATE", "mp40_clipbox_spawn_weight", 0.0, 100, .01, 2
+    Slider "$MENU_MAGSPAWNRATE", "mp40_clipmag_spawn_weight", 0.0, 100, .01, 2
+    Slider "$MENU_MERCHPRICEWEP", "hdm_mp40_price", 0.0, 10000, 10, 2
+    Slider "$MENU_MERCHPRICEMAG", "hdm_mp40mag_price", 0.0, 10000, 10, 2
+    Option "$MENU_MERCHENABLED", "hdm_enable_mp40", "OnOff"
+    StaticText ""
+
+    StaticText ""
+    Option "$MENU_PERSISTENCY", "mp40_persistency", "OnOff"
+}

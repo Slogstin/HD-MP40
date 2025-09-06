@@ -1,0 +1,11 @@
+addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HDMP40Mag", "weight": "#mp40_clipmag_spawn_weight", "persists": "#mp40_persistency" }
+addSpawnTableSingleEntry => { "tableName": "ClipBoxReplaces", "name": "MP40Drop", "weight": "#mp40_clipbox_spawn_weight", "persists": "#mp40_persistency" }
+
+addBPSpawnPoolFilter => { "name": "HDMP40Mag", "allowed": "#mp40mag_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "HDMP40", "allowed": "#mp40_allowBackpacks" }
+addWeaponCrateFilter => { "name": "HDMP40", "allowed": "#tommy_allowBackpacks" }
+
+addAmmoUser => { "ammoName": "HDPistolAmmo", "name": "HDMP40" }
+
+newMerchantStoreItem => { "enabled": "#hdm_enable_mp40", "type": "weapon", "category": "$MERCH_CAT_SLOGSTIN", "item": "HDMP40", "icon": "MP4PB0", "displayName": "$MERCH_TAG_MP40", "basePrice": "#hdm_mp40_price", "flavorText": "$MERCH_FLAVOR_MP40" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_mp40", "type": "mag", "category": "$MERCH_CAT_SLOGSTIN", "item": "HDMP40Mag", "icon": "MP4MA0", "displayName": "$MERCH_TAG_MP40MAG", "basePrice": "#hdm_mp40mag_price", "flavorText": "$MERCH_FLAVOR_MP40MAG" }

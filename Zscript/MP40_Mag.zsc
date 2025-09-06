@@ -1,3 +1,5 @@
+const HDLD_MP40MAG = "mpm";
+
 class HDMP40Mag:HDMagAmmo{
 	default{
 		//$Category "Ammo/Hideous Destructor/"
@@ -9,9 +11,9 @@ class HDMP40Mag:HDMagAmmo{
 		hdmagammo.roundtype "HDPistolAmmo";
 		hdmagammo.roundbulk ENC_9_LOADED;
 		hdmagammo.magbulk ENC_MP40_BOX_EMPTY;
-		tag "MP40 Magazine";
-		inventory.pickupmessage "Picked up a MP40 magazine.";
-		hdpickup.refid "MPM";
+		tag "$TAG_MP40MAG";
+		inventory.pickupmessage "$PICKUP_MP40MAG";
+		hdpickup.refid HDLD_MP40MAG;
 	}
 	
 	override string,string,name,double getmagsprite(int thismagamt)
