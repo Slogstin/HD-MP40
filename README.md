@@ -2,13 +2,17 @@
 
 This Addon adds the MP40 to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor), based on [RadTech's](https://github.com/swampyrad/RadTechWeaponsPack) PPSH-41.
 
+Requires [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib)!!!
+
 ![Base Profile Screenshot 2025 01 31 - 03 09 46 14](https://github.com/user-attachments/assets/9485acdb-242b-480a-a481-440a5eb6872a)
 
 ## Credits
 
 Matt for [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor).
 
-Swampyrad for the PPSH-41 code and [RadTech](https://github.com/swampyrad/RadTechWeaponsPack)
+[Swampyrad](https://github.com/swampyrad) for the PPSH-41 code and [RadTech](https://github.com/swampyrad/RadTechWeaponsPack)
+
+[Ted](https://github.com/tedthepraimortis) for localization and adding [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib) support.
 
 Sprites and sounds taken from Brutal Doom.
 
