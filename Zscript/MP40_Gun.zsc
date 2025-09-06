@@ -575,3 +575,15 @@ enum mp40_status
 	MP40S_MAGTYPE=3, //0 none, 1 box mag, 2 drum mag
 	MP40S_COCKED=4,  //0 uncocked, 1 cocked
 };
+
+class MP40Drop : IdleDummy{
+	states{
+	spawn:
+		TNT1 A 0 nodelay{
+			spawn("HDMP40",pos+(2,0,0),ALLOW_REPLACE);
+			spawn("HDMP40Mag",pos+(7,0,0),ALLOW_REPLACE);
+			spawn("HDMP40Mag",pos+(10,0,0),ALLOW_REPLACE);
+			}
+			stop;
+	}
+}

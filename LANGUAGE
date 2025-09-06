@@ -1,0 +1,17 @@
+[enu default]
+
+// Main Menu
+MP40_MENU = "\c[Orange]Ⓒ\c- MP40";
+MENU_MAGSPAWNRATE = "Magazine Spawn Rate: ";
+MENU_WEPSPAWNRATE = "Weapon Spawn Rate: ";
+MENU_MERCHPRICEWEP = "Merchant Weapon Price: ";
+MENU_MERCHPRICEMAG = "Merchant Magazine Price: ";
+MENU_MERCHENABLED = "Merchant Sold: ";
+MENU_PERSISTENCY = "Persistent Spawns: ";
+
+// Merchant
+MERCH_CAT_SLOGSTIN = "Virid Inc.";
+MERCH_TAG_MP40 = "Maschienenpistole 40";
+MERCH_TAG_MP40MAG = "MP40 Magazine";
+
+// Weapon
