@@ -12,7 +12,9 @@ MENU_PERSISTENCY = "Persistent Spawns: ";
 // Merchant
 MERCH_CAT_SLOGSTIN = "Virid Inc.";
 MERCH_TAG_MP40 = "Maschienenpistole 40";
+MERCH_FLAVOR_MP40 = "Accuracy on the move at an efficient price? Satisfactory!";
 MERCH_TAG_MP40MAG = "MP40 Magazine";
+MERCH_FLAVOR_MP40MAG = "";
 
 // Weapon
 MP40_PICKUP = "You got the MP40. Keep moving like lightning!";
