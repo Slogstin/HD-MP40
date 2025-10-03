@@ -8,7 +8,7 @@ const HDLD_MP40 = "mp4";
 
 //This MP40 is just very hacked together. Nothing more to be said.		-Slogstin
 
-class HDMP40 :HDHandgun{
+class HDMP40 :HDWeapon{
     //flags used for managing reloads
     //bool MAG_BOX;
     //bool MAG_DRUM;
@@ -587,4 +587,5 @@ class MP40Drop : IdleDummy{
 			}
 			stop;
 	}
+
 }
